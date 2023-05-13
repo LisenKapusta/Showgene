@@ -30,7 +30,7 @@ def parse_args() -> argparse.Namespace:
         "--node_count",
         type=int,
         required=False,
-        help="The number of nodes.",
+        help="The number of additional (white) nodes.",
         default=0,
     )
     parser.add_argument(
